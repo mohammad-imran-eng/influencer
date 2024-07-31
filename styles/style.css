@@ -1,0 +1,89 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items {
+    display: flex;
+    column-gap: 15px;
+}
+.nav-items li {
+    list-style: none;
+}
+.nav-items a {
+    text-decoration: none;
+    font-weight: 600;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.banner-img {
+    background-image: url(../images/Circle\ design.svg);
+}
+.banner .banner-desc button {
+    background: #E02C6D;
+    border: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+}
+.popular {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+}
+.collection-container {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.collection-container .card {
+    height: 476px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+}
+.seemore {
+    margin-left: 1190px;
+    color: #E02C6D;
+}
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.feature button {
+    border: none;
+    background: #E02C6D;
+    color: white;
+    padding: 10px 15px;
+}
+
+footer {
+    padding: 10px 0;
+    width: 100%;
+    background: rgb(10, 8, 38);
+    color: white;
+    text-align: center;
+}
+.footer-icons i {
+    margin: 0 10px;
+}
